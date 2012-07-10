@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>SVG Social Icons</title>
+    <title>Drawic</title>
 
     <link rel="stylesheet" href="http://hail2u.github.com/natural.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Berkshire+Swash">
     <style>
       body {
-        margin: 4em auto;
-        width: 36em;
-        line-height: 1;
-        color: #ccc;
+        color: #666;
         background-color: #333;
+        background-image: url("./bg.png");
         font-family: "Hoefler Text", "Constantia", serif;
+        font-size: 21px;
         text-align: center;
       }
 
@@ -23,46 +23,37 @@
       }
 
       h1 {
-        margin: 0.5em 0 0 0;
+        margin-bottom: 0;
+        color: #fff;
+        font-family: "Berkshire Swash", serif;
+        font-weight: normal;
+        font-size: 48px;
       }
 
-      h1:before {
-        content: "↙ ";
-      }
-
-      h1:after {
-        content: " ↗";
-      }
-
-      figure {
-        padding-bottom: 4em;
+      h2 {
+        margin-top: 0;
+        margin-bottom: 64px;
+        font-weight: normal;
+        font-size: 100%;
       }
 
       img {
-        margin: 1em;
-        width: 4em;
-        vertical-align: text-bottom;
+        margin: 16px;
+        width: 48px;
       }
 
       figcaption {
-        margin: 1em 0 5em 0;
-        font-style: italic;
+        margin: 64px 0 32px;
       }
 
-      p {
-        margin: 1em 0 0 0;
-      }
-
-      section:after {
-        margin-top: 1.333em;
+      footer:before {
         display: block;
         content: "* * *";
-        color: #666;
-        font-size: 150%;
+        font-size: 36px;
       }
 
       address {
-        margin: 1em 0 0 0;
+        margin: 32px 0;
       }
     </style>
 
@@ -70,29 +61,27 @@
   </head>
   <body>
     <header>
-      <h1>SVG Social Icons</h1>
+      <hgroup>
+        <h1>Drawic</h1>
+        <h2>We're Living in a World of Retina!</h2>
+      </hgroup>
     </header>
 
     <section>
-      <figure>
-        <figcaption>We're Living in a World of Retina!</figcaption>
-        <img src="delicious.svg" alt="Delicious"
+      <figure><img src="delicious.svg" alt="Delicious"
         ><img src="facebook.svg" alt="Facebook"
         ><img src="feed.svg" alt="Feed"
         ><img src="github.svg" alt="GitHub"
         ><img src="lastfm.svg" alt="Last.fm"
-        ><img src="twitter.svg" alt="Twitter">
+        ><img src="twitter.svg" alt="Twitter"
+        ><figcaption>Use browser's zoom function to see how these icons works well.</figcaption>
       </figure>
 
-      <p>Use browser's zoom function to see how these icons works well.</p>
-    </section>
-
-    <section>
-      <p><a href="https://github.com/hail2u/svg-social-icons">Fork me on GitHub</a></p>
+      <p class="download"><a href="http://github.com/hail2u/drawic/zipball/master">Download as <code>.zip</code></a></p>
     </section>
 
     <footer>
-      <address>Made by <a href="http://hail2u.net/">Kyo Nagashima</a>.</address>
+      <address>Made by <a href="http://hail2u.net/">Kyo Nagashima</a> with <a href="http://inkscape.org/">Inkscape</a>.</address>
     </footer>
   </body>
 </html>

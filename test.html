@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="http://hail2u.github.com/natural.css">
     <style>
       body {
+        margin: 4em auto;
+        width: 36em;
+        line-height: 1;
         color: #ccc;
         background-color: #333;
         font-family: "Hoefler Text", "Constantia", serif;
@@ -19,21 +22,47 @@
         color: #fff;
       }
 
-      .test img {
+      h1 {
+        margin: 0.5em 0 0 0;
+      }
+
+      h1:before {
+        content: "↙ ";
+      }
+
+      h1:after {
+        content: " ↗";
+      }
+
+      figure {
+        padding-bottom: 4em;
+      }
+
+      img {
         margin: 1em;
         width: 4em;
+        vertical-align: text-bottom;
       }
 
       figcaption {
-        margin-top: 1em;
+        margin: 1em 0 5em 0;
         font-style: italic;
       }
 
-      address:before {
+      p {
+        margin: 1em 0 0 0;
+      }
+
+      section:after {
+        margin-top: 1.333em;
         display: block;
         content: "* * *";
-        font-style: normal;
+        color: #666;
         font-size: 150%;
+      }
+
+      address {
+        margin: 1em 0 0 0;
       }
     </style>
 
@@ -44,22 +73,26 @@
       <h1>SVG Social Icons</h1>
     </header>
 
-    <section class="test">
+    <section>
       <figure>
-        <img src="delicious.svg" alt="Delicious">
-        <img src="facebook.svg" alt="Facebook">
-        <img src="feed.svg" alt="Feed">
-        <img src="github.svg" alt="GitHub">
-        <img src="lastfm.svg" alt="Last.fm">
-        <img src="twitter.svg" alt="Twitter">
         <figcaption>We're Living in a World of Retina!</figcaption>
+        <img src="delicious.svg" alt="Delicious"
+        ><img src="facebook.svg" alt="Facebook"
+        ><img src="feed.svg" alt="Feed"
+        ><img src="github.svg" alt="GitHub"
+        ><img src="lastfm.svg" alt="Last.fm"
+        ><img src="twitter.svg" alt="Twitter">
       </figure>
 
       <p>Use browser's zoom function to see how these icons works well.</p>
+    </section>
 
+    <section>
       <p><a href="https://github.com/hail2u/svg-social-icons">Fork me on GitHub</a></p>
     </section>
 
-    <address>Made by <a href="http://hail2u.net/">Kyo Nagashima</a>.</address>
+    <footer>
+      <address>Made by <a href="http://hail2u.net/">Kyo Nagashima</a>.</address>
+    </footer>
   </body>
 </html>

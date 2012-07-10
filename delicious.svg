@@ -6,21 +6,21 @@
   version="1.1"
   xmlns="http://www.w3.org/2000/svg">
   <rect
-    width="192"
-    height="192"
+    width="216"
+    height="216"
     x="256"
     y="256"
-    style="fill:#ffffff;fill-opacity:0.86666667"/>
+    style="fill:#ffffff;fill-opacity:0.13333333"/>
   <rect
-    width="192"
-    height="192"
+    width="216"
+    height="216"
     x="256"
-    y="64"
-    style="fill:#ffffff;fill-opacity:0.5098038"/>
+    y="40"
+    style="fill:#ffffff;fill-opacity:0.49019608"/>
   <rect
-    width="192"
-    height="192"
-    x="64"
+    width="216"
+    height="216"
+    x="40"
     y="256"
     style="fill:#ffffff"/>
 </svg>

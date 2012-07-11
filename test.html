@@ -46,6 +46,37 @@
         margin: 64px 0 32px;
       }
 
+      .download,
+      .clone {
+        margin: 0 8px;
+        border: 1px solid #3f3f3f;
+        border-radius: 16px;
+        display: inline-block;
+        width: 112px;
+        height: 32px;
+        line-height: 32px;
+        vertical-align: -10px;
+        overflow: hidden;
+        color: #aaa;
+        background-image: -webkit-linear-gradient(top, #333, #272727 100%);
+        text-decoration: none;
+      }
+
+      .download:before,
+      .clone:before {
+        display: block;
+        width: 100%;
+        height: 100%;
+        content: "Download";
+        font-family: "Lucida Grande", "Segoe UI", sans-serif;
+        font-size: 14px;
+        text-shadow: 0 1px 0 #000;
+      }
+
+      .clone:before {
+        content: "Clone";
+      }
+
       footer:before {
         display: block;
         content: "* * *";
@@ -74,10 +105,10 @@
         ><img src="github.svg" alt="GitHub"
         ><img src="lastfm.svg" alt="Last.fm"
         ><img src="twitter.svg" alt="Twitter"
-        ><figcaption>Use browser's zoom function to see how these icons works well.</figcaption>
+        ><figcaption>Use browser's zoom function to see how these <abbr title="Scalable Vector Graphics">SVG</abbr> icons works well.</figcaption>
       </figure>
 
-      <p class="download"><a href="http://github.com/hail2u/drawic/zipball/master">Download as <code>.zip</code></a></p>
+      <p><a href="https://github.com/hail2u/drawic/zipball/master" class="download">Download as <code>.zip</code></a> or <a href="https://github.com/hail2u/drawic" class="clone">Clone with Git</a></p>
     </section>
 
     <footer>

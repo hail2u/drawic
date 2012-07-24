@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-  viewBox="0 0 512 512"
+  xmlns="http://www.w3.org/2000/svg"
+  version="1.1"
   width="512"
   height="512"
-  version="1.1"
-  xmlns="http://www.w3.org/2000/svg">
+  viewbox="0 0 512 512">
   <path
     d="m244.69,176.8,56.569-56.569c25.071-25.071,65.438-25.071,90.51,0,25.071,25.071,25.071,65.438,0,90.51l-67.882,67.882c-25.071,25.071-65.438,25.071-90.51,0-6.1345-6.1345-10.768-13.185-13.9-20.703"
     style="stroke:#ffffff;stroke-width:32;fill:none"/>

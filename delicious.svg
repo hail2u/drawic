@@ -13,21 +13,15 @@
     ]]></style>
   </defs>
   <rect
-    width="216"
-    height="216"
-    x="256"
+    width="224"
+    height="224"
+    x="32"
     y="256"
-    style="fill:#ffffff;fill-opacity:0.13333333"/>
+    style="fill:#ffffff"/>
   <rect
-    width="216"
-    height="216"
+    width="224"
+    height="224"
     x="256"
-    y="40"
-    style="fill:#ffffff;fill-opacity:0.49019608"/>
-  <rect
-    width="216"
-    height="216"
-    x="40"
-    y="256"
+    y="32"
     style="fill:#ffffff"/>
 </svg>

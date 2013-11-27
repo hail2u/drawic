@@ -4,7 +4,7 @@
   version="1.1"
   width="512"
   height="512"
-  viewbox="0 0 512 512">
+  viewBox="0 0 512 512">
   <path
     d="m 256,64 -192,192 48,0 0,192 96,0 0,-168 96,0 0,168 96,0 0,-192 48,0 z"
     style="fill:#ffffff"/>

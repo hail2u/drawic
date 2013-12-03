@@ -12,16 +12,17 @@
       }
     ]]></style>
   </defs>
-  <rect
-    width="224"
-    height="224"
-    x="32"
-    y="256"
-    style="fill:#ffffff"/>
-  <rect
-    width="224"
-    height="224"
-    x="256"
-    y="32"
-    style="fill:#ffffff"/>
+  <g
+    style="fill:#ffffff">
+    <rect
+      width="224"
+      height="224"
+      x="32"
+      y="256"/>
+    <rect
+      width="224"
+      height="224"
+      x="256"
+      y="32"/>
+  </g>
 </svg>

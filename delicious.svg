@@ -7,22 +7,12 @@
   viewBox="0 0 512 512">
   <defs>
     <style><![CDATA[
-      rect {
+      path {
         shape-rendering: crispEdges;
       }
     ]]></style>
   </defs>
-  <g
-    style="fill:#ffffff">
-    <rect
-      width="224"
-      height="224"
-      x="32"
-      y="256"/>
-    <rect
-      width="224"
-      height="224"
-      x="256"
-      y="32"/>
-  </g>
+  <path
+    d="M 32,480 256,480 l 0,-448 224,0 0,224 -448,0 z"
+    style="fill:#ffffff"/>
 </svg>

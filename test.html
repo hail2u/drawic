@@ -23,6 +23,8 @@
       }
 
       h1 {
+        position: relative;
+        line-height: 1;
         font-family: "Berkshire Swash", serif;
         font-weight: normal;
         font-size: 300%;
@@ -32,8 +34,12 @@
         text-decoration: none;
       }
 
+      .version {
+        position: absolute;
+        font-size: 33.333%;
+      }
+
       h1 + p {
-        margin-top: 0;
         font-weight: normal;
         font-size: 131.25%;
       }
@@ -137,7 +143,7 @@
   </head>
   <body>
     <header>
-      <h1><a href="http://hail2u.github.io/drawic/">Drawic</a></h1>
+      <h1><a href="http://hail2u.github.io/drawic/">Drawic</a> <span class="version">v1.3.0</span></h1>
 
       <p>We're Living in a World of Retina!</p>
     </header>

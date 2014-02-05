@@ -10,7 +10,8 @@ DEMO
 http://hail2u.github.io/drawic/
 
 
-LICENSE
--------
+CC0
+---
 
-TBA.
+To the extent possible under law, [Kyo Nagashima](http://hail2u.net/) has waived all
+copyright and related or neighboring rights to Drawic.

@@ -1,7 +1,7 @@
 Drawic
 ======
 
-[Drawic][1] is a small set of SVG social icons. We're Living in a World
+[Drawic][1] is a small set of SVG social icons. We’re Living in a World
 of Retina!
 
 

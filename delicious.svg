@@ -5,14 +5,7 @@
   width="512"
   height="512"
   viewBox="0 0 512 512">
-  <defs>
-    <style><![CDATA[
-      path {
-        shape-rendering: crispEdges;
-      }
-    ]]></style>
-  </defs>
   <path
-    d="M 32,480 256,480 l 0,-448 224,0 0,224 -448,0 z"
+    d="m 64,64 0,184 184,0 0,-184 z m 200,0 0,184 184,0 0,-184 z m -200,200 0,184 184,0 0,-184 z m 200,0 0,184 184,0 0,-184 z"
     style="fill:#ffffff"/>
 </svg>

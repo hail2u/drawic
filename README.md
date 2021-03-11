@@ -13,4 +13,4 @@ copyright and related or neighboring rights to Drawic.
 
 
 [1]: https://hail2u.github.io/drawic/
-[2]: https://kyonagashima.com/
+[2]: https://hail2u.net/
